@@ -1,0 +1,68 @@
+# depslib dependency file v1.0
+1638681767 source:f:\c++\os\filedirmanage\fat.cpp
+	"FAT.h"
+	<string.h>
+	<fstream>
+	<iostream>
+
+1638676616 f:\c++\os\filedirmanage\fat.h
+	<stack>
+	<algorithm>
+
+1589546156 source:f:\c++\os\filedirmanage\fcb.cpp
+	"FCB.H"
+
+1589546156 f:\c++\os\filedirmanage\fcb.h
+	<string>
+	"FileType.h"
+	"Access.h"
+	"FAT.h"
+	<time.h>
+
+1589546156 f:\c++\os\filedirmanage\filetype.h
+
+1589546156 f:\c++\os\filedirmanage\access.h
+
+1589546156 source:f:\c++\os\filedirmanage\folder.cpp
+	"Folder.h"
+
+1589546156 f:\c++\os\filedirmanage\folder.h
+	"FCB.h"
+	"File.h"
+	<vector>
+	<string>
+
+1638672410 f:\c++\os\filedirmanage\file.h
+	"FCB.H"
+	<cstring>
+
+1639469425 source:f:\c++\os\filedirmanage\main.cpp
+	"main.h"
+
+1638672569 f:\c++\os\filedirmanage\diskmanager.h
+	"Folder.h"
+
+1638672410 source:f:\c++\os\filedirmanage\file.cpp
+	"File.h"
+
+1638685327 source:f:\c++\os\filedirmanage\diskmannger.cpp
+	<stack>
+	<iostream>
+	<iomanip>
+	<queue>
+	<fstream>
+	"DiskManager.h"
+	"Folder.h"
+	"FileType.h"
+	"FAT.h"
+	<unistd.h>
+	<sys/stat.h>
+
+1639469472 f:\c++\os\filedirmanage\main.h
+	<stack>
+	<algorithm>
+	<time.h>
+	<cstring>
+	<vector>
+	<string>
+
